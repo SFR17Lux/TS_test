@@ -62,7 +62,7 @@ st.write("Risk analysis is one step in the overall risk management and risk asse
 
 col1, col2, col3 = st.columns(3)
 with col1:
-    ticker = st.text_input("Choose a Risk Analysis Framework (Identification, Preparation, Response ...)", value="⬇")
+    ticker = st.text_input("Choose a Risk Analysis Framework (Identification, Preparation, Response ...)", value="Analysis")
 with col2:
     ticker_dx = st.slider(
         "Horizontal offset", min_value=-30, max_value=30, step=1, value=0
@@ -105,7 +105,7 @@ st.altair_chart((chart + annotation_layer).interactive(), use_container_width=Tr
 st.write("## Code")
 
 st.write(
-    "See more on [Square Management Luxembourg](Sitraka17.github.io)"
+    "See more on [Square Management Luxembourg](https://sitraka17.github.io/)"
 )
 
 
