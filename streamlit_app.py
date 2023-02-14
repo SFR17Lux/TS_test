@@ -105,7 +105,7 @@ st.altair_chart((chart + annotation_layer).interactive(), use_container_width=Tr
 st.write("## Code")
 
 st.write(
-    "See more on [Square Management Luxembourg](Sitraka17.github.io)
+    "See more on [Square Management Luxembourg](Sitraka17.github.io)"
 )
 
 
