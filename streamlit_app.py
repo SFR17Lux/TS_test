@@ -58,7 +58,7 @@ def get_chart(data):
 
 st.title("Risk Analysis ⚠️")
 
-st.write("Give more context to your time series using annotations!")
+st.write("Risk analysis is one step in the overall risk management and risk assessment process, but it’s a critical one. During a cybersecurity risk analysis, your organization will need to examine each risk to the security of your organization’s information systems (devices, software, hardware, apps, and so forth), and then prioritize which risks need to be remediated first")
 
 col1, col2, col3 = st.columns(3)
 with col1:
