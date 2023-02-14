@@ -62,7 +62,7 @@ st.write("Risk analysis is one step in the overall risk management and risk asse
 
 col1, col2, col3 = st.columns(3)
 with col1:
-    ticker = st.text_input("Choose a ticker (⬇💬👇ℹ️ ...)", value="⬇")
+    ticker = st.text_input("Choose a Risk Analysis Framework (Identification, Preparation, Response ...)", value="⬇")
 with col2:
     ticker_dx = st.slider(
         "Horizontal offset", min_value=-30, max_value=30, step=1, value=0
