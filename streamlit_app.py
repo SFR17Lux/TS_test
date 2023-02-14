@@ -56,7 +56,7 @@ def get_chart(data):
     return (lines + points + tooltips).interactive()
 
 
-st.title("⬇ Time series annotations")
+st.title("Risk Analysis ⚠️")
 
 st.write("Give more context to your time series using annotations!")
 
